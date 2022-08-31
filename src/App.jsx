@@ -17,9 +17,9 @@ const Board = styled.div`
   border: 1px solid white;
   display: grid;
   grid-template-columns: 140px 140px 140px;
-  margin-top: 4rem;
   @media screen and (max-width: 425px) {
     width: 330px;
+    margin-top: 4rem;
     height: 330px;
     grid-template-columns: 110px 110px 110px;
   }
